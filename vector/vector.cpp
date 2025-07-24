@@ -30,10 +30,38 @@ void Vector::Push_Back(int val){
 
 void Vector::print(){
     for(int i = 0 ; i < Size; i++){
-        std::cout << arr[i] << std::endl;
+        std::cout << arr[i] << ' ';
     }
+    std::cout << std::endl;
 }
 
 int Vector::ret_Size(){
     return Size;
 }
+/*
+----------------------------------------------HomeWork---------------------------------------------
+*/
+
+//Right rotation
+void Vector::Right_rotation(){
+    std::swap(arr[0] , arr[Size-1]);
+    for(int i = 1 ; i < Size-1 ; i++){
+        std::swap(arr[i] , arr[Size-1]);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
