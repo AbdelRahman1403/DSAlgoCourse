@@ -15,6 +15,7 @@ public :
     void print();
     void Right_rotation();
     void Right_rotation(int times);
+    int pop(int idx);
     void Left_rotation();
     int ret_Size();
 };

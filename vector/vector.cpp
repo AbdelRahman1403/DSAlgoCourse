@@ -67,7 +67,15 @@ void Vector::Right_rotation(int times){
     while(times--)
         Right_rotation();
 }
-
+// Delete with index
+int Vector::pop(int idx){
+    int x = arr[idx];
+    for(int i = idx + 1; i < Size ; i++){
+        arr[i-1] = arr[i];
+    }
+    --Size;
+    return x;
+}
 
 
 
