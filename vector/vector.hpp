@@ -14,6 +14,7 @@ public :
     void Push_Back(int val);
     void print();
     void Right_rotation();
+    void Right_rotation(int times);
     void Left_rotation();
     int ret_Size();
 };

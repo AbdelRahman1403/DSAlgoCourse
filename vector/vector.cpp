@@ -61,6 +61,13 @@ void Vector::Left_rotation(){
 
 }
 
+//Right Rotation with steps
+void Vector::Right_rotation(int times){
+    times = times%Size;
+    while(times--)
+        Right_rotation();
+}
+
 
 
 
