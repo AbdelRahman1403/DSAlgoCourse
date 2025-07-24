@@ -9,9 +9,8 @@ int main()
     v1.Push_Back(2);
     v1.Push_Back(3);
     v1.Push_Back(4);
-    v1.Push_Back(5);
     v1.print();
-    v1.Right_rotation();
+    v1.Left_rotation();
     v1.print();
     return 0;
 }

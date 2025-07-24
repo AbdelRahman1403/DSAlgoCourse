@@ -50,6 +50,17 @@ void Vector::Right_rotation(){
     }
 }
 
+//Left rotation
+// 0 1 2 3 4
+// 1 2 3 4 0
+void Vector::Left_rotation(){
+    std::swap(arr[Size-1] , arr[0]);
+    for(int i = Size-2; i>0 ; i--){
+        std::swap(arr[0] , arr[i]);
+    }
+
+}
+
 
 
 
