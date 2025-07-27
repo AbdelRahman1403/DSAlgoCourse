@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include<cassert>
 class Vector{
 private :
     int *arr = nullptr;
@@ -17,5 +18,6 @@ public :
     void Right_rotation(int times);
     int pop(int idx);
     void Left_rotation();
+    int Find_Transportation(int idx);
     int ret_Size();
 };

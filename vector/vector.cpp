@@ -77,6 +77,24 @@ int Vector::pop(int idx){
     return x;
 }
 
+// Find transportaiton
+
+int Vector::Find_Transportation(int idx){
+    bool ret = 0;
+    if(idx <= 0 || idx > Size) {
+        ret = 0;
+    }
+    else {
+        if (idx == 1){
+            ret = 1;
+        }
+        else {
+            std::swap(arr[idx-2] , arr[idx-1]);
+            ret = 1;
+        }
+    }
+    return ret;
+}
 
 
 

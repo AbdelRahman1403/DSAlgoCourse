@@ -1,13 +1,14 @@
 # depslib dependency file v1.0
-1753358553 source:e:\datastructure and algorithm\datastructure\learning\main.cpp
+1753613960 source:e:\datastructure and algorithm\datastructure\learning\main.cpp
 	<iostream>
 	"vector/vector.hpp"
 	<vector>
 
-1753358553 e:\datastructure and algorithm\datastructure\learning\vector\vector.hpp
+1753443896 e:\datastructure and algorithm\datastructure\learning\vector\vector.hpp
 	<iostream>
 	<algorithm>
+	<cassert>
 
-1753357808 source:e:\datastructure and algorithm\datastructure\learning\vector\vector.cpp
+1753614022 source:e:\datastructure and algorithm\datastructure\learning\vector\vector.cpp
 	"vector.hpp"
 

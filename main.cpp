@@ -10,7 +10,7 @@ int main()
     v1.Push_Back(3);
     v1.Push_Back(4);
     v1.print();
-    v1.pop(2);
+    v1.Find_Transportation(2);
     v1.print();
     return 0;
 }
