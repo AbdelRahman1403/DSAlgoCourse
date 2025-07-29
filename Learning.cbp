@@ -30,8 +30,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-g" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="linkedlist/linkedlist.cpp" />
+		<Unit filename="linkedlist/linkedlist.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="vector/vector.cpp" />
 		<Unit filename="vector/vector.hpp" />
