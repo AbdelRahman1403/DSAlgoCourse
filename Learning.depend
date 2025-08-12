@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1753807617 source:e:\datastructure and algorithm\datastructure\learning\main.cpp
+1754974654 source:e:\datastructure and algorithm\datastructure\learning\main.cpp
 	<iostream>
 	"vector/vector.hpp"
 	"linkedlist/linkedlist.hpp"
@@ -12,10 +12,10 @@
 1753614259 source:e:\datastructure and algorithm\datastructure\learning\vector\vector.cpp
 	"vector.hpp"
 
-1753807937 e:\datastructure and algorithm\datastructure\learning\linkedlist\linkedlist.hpp
+1754973791 e:\datastructure and algorithm\datastructure\learning\linkedlist\linkedlist.hpp
 	<iostream>
-	<vector>
+	<stack>
 
-1753807324 source:e:\datastructure and algorithm\datastructure\learning\linkedlist\linkedlist.cpp
+1754974677 source:e:\datastructure and algorithm\datastructure\learning\linkedlist\linkedlist.cpp
 	"linkedlist.hpp"
 
