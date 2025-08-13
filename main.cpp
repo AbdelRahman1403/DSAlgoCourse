@@ -5,8 +5,27 @@ void Vector_Homework();
 void LinkedList_Homework();
 int main()
 {
+    std::cout << "Enter the string :";
+    std::string str;
+    std::getline(std::cin , str);
+    int Start = 0;
+    int End = str.size() - 1;
+    while(str[Start] == ' ') Start++;
+    while(str[End] == ' ')  --End;
+    std::cout << Start << ' ' << End << std::endl;
+    int pos = 0;
+    int cnt = 0;
+    while(Start < End){
+        if(str[Start] == ' ') {
+                pos = Start;
+        }
+        Start++;
+    }
+    if (Start == End) pos = Start;
+    while(pos <= End) pos++,cnt++;
+    std::cout << cnt << std::endl;
     //Vector_Homework();
-    LinkedList_Homework();
+    //LinkedList_Homework();
 }
 
 void Vector_Homework(){
